@@ -1,6 +1,8 @@
 <template>
   <div class="container mx-auto">
-    <text-field v-model="text" class="mt-4" />
+    <ul>
+      <li><nuxt-link to="/asana">Asana</nuxt-link></li>
+    </ul>
   </div>
 </template>
 
