@@ -26,12 +26,21 @@
           </div>
 
           <!-- menu -->
-          <div
-            class="rounded transition duration-300"
-            :class="`hover:bg-${color}-400`"
-          >
-            <span class="mdi mdi-dots-horizontal text-white mx-1 my-2" />
-          </div>
+          <AppDropdown>
+            <template slot="toggler">
+              <div
+                class="rounded transition duration-300"
+                :class="`hover:bg-${color}-400`"
+              >
+                <span class="mdi mdi-dots-horizontal text-white mx-1 my-2" />
+              </div>
+            </template>
+            <AppDropdownContent>
+              <AppDropdownItem>Action 1</AppDropdownItem>
+              <AppDropdownItem>Action 2</AppDropdownItem>
+              <AppDropdownItem>Action 3</AppDropdownItem>
+            </AppDropdownContent>
+          </AppDropdown>
         </div>
       </div>
     </div>
