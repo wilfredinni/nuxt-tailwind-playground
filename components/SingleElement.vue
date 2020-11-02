@@ -4,7 +4,7 @@
     @mouseover="showActions()"
     @mouseleave="hideActions()"
   >
-    <div class="relative">
+    <div v-click-outside="deactivateOver" class="relative">
       <div class="absolute ml-8 pt-2">
         <div
           class="transition duration-300 w-24 flex justify-between"
@@ -31,14 +31,21 @@
               <div
                 class="rounded transition duration-300"
                 :class="`hover:bg-${color}-400`"
+                @click="alwaysOn = true"
               >
                 <span class="mdi mdi-dots-horizontal text-white mx-1 my-2" />
               </div>
             </template>
             <AppDropdownContent>
-              <AppDropdownItem>Action 1</AppDropdownItem>
-              <AppDropdownItem>Action 2</AppDropdownItem>
-              <AppDropdownItem>Action 3</AppDropdownItem>
+              <AppDropdownItem @click.native="deactivateOver()">
+                Action 1
+              </AppDropdownItem>
+              <AppDropdownItem @click.native="deactivateOver()">
+                Action 2
+              </AppDropdownItem>
+              <AppDropdownItem @click.native="deactivateOver()">
+                Action 3
+              </AppDropdownItem>
             </AppDropdownContent>
           </AppDropdown>
         </div>
@@ -85,6 +92,7 @@ export default {
   },
   data() {
     return {
+      alwaysOn: false,
       actionClass: 'opacity-0',
       fave: false,
     }
@@ -94,7 +102,11 @@ export default {
       this.actionClass = 'opacity-1'
     },
     hideActions() {
-      this.actionClass = 'opacity-0'
+      if (!this.alwaysOn) this.actionClass = 'opacity-0'
+    },
+    deactivateOver() {
+      this.alwaysOn = false
+      this.hideActions()
     },
   },
 }
