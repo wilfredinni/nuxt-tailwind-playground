@@ -3,7 +3,7 @@
     <!-- groups -->
     <div class="grid justify-center">
       <div
-        class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 mt-4 gap-4"
+        class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4"
       >
         <div v-for="(item, index) in elements" :key="index">
           <single-element
