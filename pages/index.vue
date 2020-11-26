@@ -1,12 +1,11 @@
 <template>
   <div>
     <!-- groups -->
-    <div class="grid justify-center mt-10">
+    <div class="grid justify-center">
       <div
-        v-if="showFaves"
-        class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 mt-4 gap-2"
+        class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 mt-4 gap-4"
       >
-        <div v-for="item in elements" :key="item.title">
+        <div v-for="(item, index) in elements" :key="index">
           <single-element
             :title="item.title"
             :icon="item.icon"
@@ -18,7 +17,7 @@
       </div>
     </div>
 
-    <div class="container mx-auto text-center my-4">
+    <!-- <div class="container mx-auto text-center my-4">
       <div class="grid grid-cols-3 gap-4">
         <div class="bg-red-300">1</div>
         <div class="bg-blue-300">2</div>
@@ -28,7 +27,7 @@
         <div class="bg-red-300 col-span-3">6</div>
         <div class="bg-blue-300">7</div>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 
@@ -36,14 +35,13 @@
 export default {
   data() {
     return {
-      showFaves: true,
       elements: [
         { title: 'Ingresos', icon: 'mdi mdi-bank', color: 'teal' },
         { title: 'Ahorro', icon: 'mdi mdi-piggy-bank', color: 'blue' },
         { title: 'Comida', icon: 'mdi mdi-food-apple', color: 'red' },
+
         { title: 'Social', icon: 'mdi mdi-glass-mug-variant', color: 'red' },
         { title: 'Viajes', icon: 'mdi mdi-airplane', color: 'red' },
-        { title: 'Viajes2', icon: 'mdi mdi-airplane', color: 'red' },
       ],
     }
   },
