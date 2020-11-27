@@ -13,28 +13,43 @@
             </div>
           </div>
         </div>
-        <div class="flex flex-1 justify-between items-center px-8">
-          <div>
-            <h2 class="text-xl">Inicio</h2>
-          </div>
-          <div class="flex items-center mt-2 mb-6">
-            <div class="relative text-gray-600">
+
+        <div class="flex flex-1 items-center justify-between h-16 px-8">
+          <!-- inicio -->
+          <h2 class="text-xl">Inicio</h2>
+
+          <div class="flex">
+            <!-- search -->
+            <div class="relative flex items-center text-gray-600">
               <input
                 type="search"
                 name="search"
                 placeholder="Search"
                 class="border h-10 px-5 pr-10 rounded-full text-sm focus:outline-none"
               />
-              <button type="submit" class="absolute right-0 top-0 mt-3 mr-4">
-                <span class="mdi mdi-magnify text-xl"></span>
+              <span
+                class="mdi mdi-magnify text-xl absolute right-0 mr-4"
+              ></span>
+            </div>
+
+            <!-- plus -->
+            <div>
+              <button
+                class="p-0 w-8 h-8 bg-orange-500 rounded-full hover:bg-orange-700 active:shadow-lg shadow transition ease-in duration-200 focus:outline-none ml-3"
+              >
+                <span class="mdi mdi-plus text-xl font-bold text-white"></span>
               </button>
             </div>
-            <img
-              src="/carlos.jpg"
-              width="35"
-              class="rounded-full ml-3"
-              alt=""
-            />
+
+            <!-- avatar -->
+            <div>
+              <img
+                src="/carlos.jpg"
+                width="33"
+                class="rounded-full ml-3"
+                alt=""
+              />
+            </div>
           </div>
         </div>
       </div>

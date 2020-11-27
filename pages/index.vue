@@ -2,6 +2,11 @@
   <div>
     <!-- groups -->
     <div class="grid justify-center">
+      <div class="border-b-2 mb-3 flex items-center mx-2">
+        <span class="mdi mdi-menu-down text-2xl text-gray-700" />
+        <p>Favoritos</p>
+      </div>
+
       <div
         class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4"
       >
@@ -15,19 +20,20 @@
           />
         </div>
       </div>
-    </div>
 
-    <!-- <div class="container mx-auto text-center my-4">
-      <div class="grid grid-cols-3 gap-4">
-        <div class="bg-red-300">1</div>
-        <div class="bg-blue-300">2</div>
-        <div class="bg-green-200">3</div>
-        <div class="bg-gray-300">4</div>
-        <div class="bg-orange-300 col-span-2">5</div>
-        <div class="bg-red-300 col-span-3">6</div>
-        <div class="bg-blue-300">7</div>
+      <!-- pending movements -->
+      <div class="border-b-2 mb-3 flex items-center mx-2 mt-10">
+        <span class="mdi mdi-menu-down text-2xl text-gray-700" />
+        <p>Movimientos pendientes</p>
       </div>
-    </div> -->
+      <div class="mx-2">
+        <ul class="bg-red-200">
+          <li class="bg-blue-200">sdfsdf</li>
+          <li>sdfsdf</li>
+          <li>sdfsdf</li>
+        </ul>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -39,7 +45,6 @@ export default {
         { title: 'Ingresos', icon: 'mdi mdi-bank', color: 'teal' },
         { title: 'Ahorro', icon: 'mdi mdi-piggy-bank', color: 'blue' },
         { title: 'Comida', icon: 'mdi mdi-food-apple', color: 'red' },
-
         { title: 'Social', icon: 'mdi mdi-glass-mug-variant', color: 'red' },
         { title: 'Viajes', icon: 'mdi mdi-airplane', color: 'red' },
       ],
