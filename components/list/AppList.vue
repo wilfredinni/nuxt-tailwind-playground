@@ -1,7 +1,7 @@
 <template>
   <div>
     <div
-      class="flex justify-between items-center hover:bg-gray-200 px-3 py-3 cursor-pointer"
+      class="flex justify-between items-center rounded-xl hover:bg-gray-200 px-3 py-3 cursor-pointer"
       @mouseover="showHiddenFields()"
       @mouseleave="hideHiddenFields()"
     >

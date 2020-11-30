@@ -55,9 +55,9 @@
       </div>
 
       <div class="flex-1 flex">
-        <div class="bg-gray-700 w-56 flex-none overflow-y-auto hidden lg:block">
-          sidebar
-        </div>
+        <div
+          class="bg-gray-700 w-56 flex-none overflow-y-auto hidden lg:block"
+        ></div>
         <div class="flex-1">
           <Nuxt />
         </div>
