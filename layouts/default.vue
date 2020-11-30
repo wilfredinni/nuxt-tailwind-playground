@@ -20,7 +20,7 @@
 
           <div class="flex">
             <!-- search -->
-            <div class="relative flex items-center text-gray-600">
+            <div class="relative items-center text-gray-600 hidden sm:block">
               <input
                 type="search"
                 name="search"

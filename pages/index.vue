@@ -1,24 +1,5 @@
 <template>
   <div class="grid justify-center">
-    <!-- <div
-      class="flex shadow-lg mt-3 mb-10 justify-around rounded-xl bg-white py-6"
-    >
-      <div class="flex flex-col items-center justify-center">
-        <h2 class="text-3xl text-teal-500 font-bold">$1.340.000</h2>
-        <p class="text-xl text-gray-600 font-semibold">Ingresos</p>
-      </div>
-
-      <div class="flex flex-col items-center justify-center">
-        <h2 class="text-3xl text-red-500 font-bold">$340.000</h2>
-        <p class="text-xl text-gray-600 font-semibold">Gastos</p>
-      </div>
-
-      <div class="flex flex-col justify-center items-center">
-        <h2 class="text-3xl text-blue-500 font-bold">$200.000</h2>
-        <p class="text-xl text-gray-600 font-semibold">Ahorro</p>
-      </div>
-    </div> -->
-
     <!-- groups -->
     <div class="border-b-2 mb-3 mt-3 flex items-center mx-2">
       <span class="mdi mdi-menu-down text-2xl text-gray-700" />
