@@ -14,7 +14,9 @@
           </div>
         </div>
 
-        <div class="flex flex-1 items-center justify-between h-16 px-8">
+        <div
+          class="flex flex-1 items-center justify-between h-16 px-8 bg-gray-100"
+        >
           <!-- inicio -->
           <h2 class="text-xl">Inicio</h2>
 
