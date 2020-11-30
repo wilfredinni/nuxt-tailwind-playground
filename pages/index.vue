@@ -1,25 +1,21 @@
 <template>
-  <div class="grid justify-center bg-gray-100">
-    <div class="flex shadow-lg mt-3 mb-10 rounded-xl bg-white py-6">
-      <div class="flex flex-1 justify-center">
-        <div class="flex flex-col items-center">
-          <h2 class="text-3xl text-teal-500 font-bold">$1.340.000</h2>
-          <p class="text-xl text-gray-600 font-semibold">Ingresos</p>
-        </div>
+  <div class="grid justify-center">
+    <div
+      class="flex shadow-lg mt-3 mb-10 justify-around rounded-xl bg-white py-6"
+    >
+      <div class="flex flex-col items-center justify-center">
+        <h2 class="text-3xl text-teal-500 font-bold">$1.340.000</h2>
+        <p class="text-xl text-gray-600 font-semibold">Ingresos</p>
       </div>
 
-      <div class="flex flex-1 justify-center">
-        <div class="flex flex-col items-center">
-          <h2 class="text-3xl text-red-500 font-bold">$340.000</h2>
-          <p class="text-xl text-gray-600 font-semibold">Gastos</p>
-        </div>
+      <div class="flex flex-col items-center justify-center">
+        <h2 class="text-3xl text-red-500 font-bold">$340.000</h2>
+        <p class="text-xl text-gray-600 font-semibold">Gastos</p>
       </div>
 
-      <div class="flex flex-1 justify-center">
-        <div class="flex flex-col items-center">
-          <h2 class="text-3xl text-blue-500 font-bold">$200.000</h2>
-          <p class="text-xl text-gray-600 font-semibold">Ahorro</p>
-        </div>
+      <div class="flex flex-col justify-center items-center">
+        <h2 class="text-3xl text-blue-500 font-bold">$200.000</h2>
+        <p class="text-xl text-gray-600 font-semibold">Ahorro</p>
       </div>
     </div>
 
