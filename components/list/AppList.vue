@@ -22,10 +22,10 @@
       </div>
 
       <!-- amount -->
-      <div :class="actionClass" class="transition duration-300">
-        <p class="text-sm text-gray-700">${{ item.amount }}</p>
-      </div>
-      <div>
+      <div class="flex items-center">
+        <div :class="actionClass" class="transition duration-300">
+          <p class="text-sm text-gray-700">${{ item.amount }}</p>
+        </div>
         <img src="/carlos.jpg" width="28" class="rounded-full ml-3" alt="" />
       </div>
     </div>

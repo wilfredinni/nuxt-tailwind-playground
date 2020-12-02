@@ -27,7 +27,9 @@
                 placeholder="Search"
                 class="border h-10 px-5 pr-10 rounded-full text-sm focus:outline-none"
               />
-              <span class="mdi mdi-magnify text-xl absolute right-0 mr-4" />
+              <span
+                class="mdi mdi-magnify text-xl absolute right-0 mr-4 mt-1"
+              />
             </div>
 
             <!-- plus -->
