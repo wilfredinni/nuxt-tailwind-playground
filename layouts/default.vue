@@ -27,17 +27,15 @@
                 placeholder="Search"
                 class="border h-10 px-5 pr-10 rounded-full text-sm focus:outline-none"
               />
-              <span
-                class="mdi mdi-magnify text-xl absolute right-0 mr-4"
-              ></span>
+              <span class="mdi mdi-magnify text-xl absolute right-0 mr-4" />
             </div>
 
             <!-- plus -->
             <div>
               <button
-                class="p-0 w-8 h-8 bg-orange-500 rounded-full hover:bg-orange-700 active:shadow-lg shadow transition ease-in duration-200 focus:outline-none ml-3"
+                class="p-0 w-8 h-8 bg-orange-500 rounded-full hover:bg-orange-600 active:shadow-lg shadow transition ease-in duration-200 focus:outline-none ml-3"
               >
-                <span class="mdi mdi-plus text-xl font-bold text-white"></span>
+                <span class="mdi mdi-plus text-xl font-bold text-white" />
               </button>
             </div>
 
