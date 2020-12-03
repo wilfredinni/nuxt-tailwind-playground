@@ -34,19 +34,20 @@
         />
       </div>
     </div>
-    <notification :type="'success'">
+    <!-- <notification :type="'success'">
       <notification-title>Successfully saved!</notification-title>
       <notification-msg>
         Anyone with a link can now view this file.
       </notification-msg>
-    </notification>
+    </notification> -->
   </div>
 </template>
 
 <script>
-import Notification from '../components/notification/Notification.vue'
+// import Notification from '../components/notification/Notification.vue'
+
 export default {
-  components: { Notification },
+  // components: { Notification },
   data() {
     return {
       elements: [

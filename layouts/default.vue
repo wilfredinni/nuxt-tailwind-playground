@@ -6,7 +6,7 @@
           <div class="flex px-4 justify-between h-16">
             <div class="flex items-center">
               <img src="/grudget.png" width="30" alt="" />
-              <h1 class="text-lg text-gray-300 font-semibold ml-2">Grudget</h1>
+              <h1 class="text-lg text-gray-300 font-medium ml-2">Grudget</h1>
             </div>
             <div class="flex items-center">
               <span class="mdi text-gray-400 mdi-menu text-2xl"></span>
@@ -25,7 +25,7 @@
                 type="search"
                 name="search"
                 placeholder="Search"
-                class="border h-10 px-5 pr-10 rounded-full text-sm focus:outline-none"
+                class="focus:border-blue-500 focus:outline-none w-full text-sm text-black placeholder-gray-500 border border-gray-200 rounded-md py-2 pl-10"
               />
               <span
                 class="mdi mdi-magnify text-xl absolute right-0 mr-4 mt-1"
