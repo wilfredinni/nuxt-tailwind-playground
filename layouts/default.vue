@@ -2,7 +2,7 @@
   <div>
     <div class="flex flex-col min-h-screen">
       <div class="flex">
-        <div class="bg-gray-700 w-56 flex-none overflow-y-auto hidden lg:block">
+        <div class="bg-gray-700 w-64 flex-none overflow-y-auto hidden lg:block">
           <div class="flex px-4 justify-between h-16">
             <div class="flex items-center">
               <img src="/grudget.png" width="30" alt="" />
@@ -55,9 +55,9 @@
       </div>
 
       <div class="flex-1 flex">
-        <div
-          class="bg-gray-700 w-56 flex-none overflow-y-auto hidden lg:block"
-        ></div>
+        <div class="bg-gray-700 w-64 flex-none overflow-y-auto hidden lg:block">
+          <side-bar></side-bar>
+        </div>
         <div class="flex-1">
           <Nuxt />
         </div>
@@ -65,5 +65,12 @@
     </div>
   </div>
 </template>
+
+<script>
+import SideBar from '~/components/layout/SideBar.vue'
+export default {
+  components: { SideBar },
+}
+</script>
 
 <style></style>
