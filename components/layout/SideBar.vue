@@ -72,6 +72,27 @@
       <div class="w-2 h-2 ml-3 mr-4 my-3 bg-teal-400 rounded-sm"></div>
       <p class="text-gray-200 font-medium text-sm">Navidad</p>
     </div>
+
+    <!-- Projects -->
+    <div class="border-b border-gray-500 mt-3"></div>
+    <div class="flex items-center p-2 mt-2 justify-between">
+      <p class="text-gray-200 font-medium text-sm">Proyectos</p>
+      <span class="mdi mdi-plus text-white"></span>
+    </div>
+
+    <!-- projects items -->
+    <div class="flex items-center">
+      <div class="w-2 h-2 ml-3 mr-4 my-3 bg-blue-400 rounded-sm"></div>
+      <p class="text-gray-200 font-medium text-sm">Venta de jabones</p>
+    </div>
+    <div class="flex items-center">
+      <div class="w-2 h-2 ml-3 mr-4 my-3 bg-orange-400 rounded-sm"></div>
+      <p class="text-gray-200 font-medium text-sm">Pago CAE</p>
+    </div>
+    <div class="flex items-center">
+      <div class="w-2 h-2 ml-3 mr-4 my-3 bg-purple-400 rounded-sm"></div>
+      <p class="text-gray-200 font-medium text-sm">Matrimonio</p>
+    </div>
   </div>
 </template>
 
