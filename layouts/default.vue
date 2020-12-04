@@ -25,7 +25,7 @@
                 type="search"
                 name="search"
                 placeholder="Search"
-                class="focus:border-blue-500 focus:outline-none w-full text-sm text-black placeholder-gray-500 border border-gray-200 rounded-md py-2 pl-10"
+                class="focus:border-blue-500 focus:outline-none w-full text-sm text-black placeholder-gray-500 border border-gray-400 rounded-md pl-4 py-2 pr-10"
               />
               <span
                 class="mdi mdi-magnify text-xl absolute right-0 mr-4 mt-1"

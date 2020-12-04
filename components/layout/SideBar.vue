@@ -4,7 +4,9 @@
     <div class="px-2">
       <!-- navbar items -->
       <template>
-        <div class="flex items-center p-2 my-3 bg-gray-800 rounded-lg">
+        <div
+          class="flex items-center p-2 my-3 rounded-lg cursor-pointer bg-gray-800"
+        >
           <svg
             class="w-6 h-6 mr-4 text-gray-500"
             fill="none"
@@ -21,7 +23,9 @@
           </svg>
           <p class="text-gray-200 font-medium text-sm">Inicio</p>
         </div>
-        <div class="flex items-center p-2 my-3">
+        <div
+          class="flex items-center p-2 my-3 rounded-lg cursor-pointer hover:bg-gray-800 hover:bg-opacity-25"
+        >
           <svg
             class="w-6 h-6 mr-4 text-gray-500"
             fill="none"
@@ -38,7 +42,9 @@
           </svg>
           <p class="text-gray-200 font-medium text-sm">Movimientos</p>
         </div>
-        <div class="flex items-center p-2 my-3">
+        <div
+          class="flex items-center p-2 my-3 rounded-lg cursor-pointer hover:bg-gray-800 hover:bg-opacity-25"
+        >
           <svg
             class="w-6 h-6 mr-4 text-gray-500"
             fill="none"
@@ -107,7 +113,7 @@
     <!-- User -->
     <div class="absolute bottom-0 flex flex-col w-64">
       <div class="border-b border-gray-600"></div>
-      <div class="flex justify-between items-center px-3 py-4">
+      <div class="flex justify-between items-center px-4 py-4">
         <div class="flex items-center">
           <img src="/carlos.jpg" width="33" class="rounded-full" alt="" />
           <div class="ml-3">
