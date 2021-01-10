@@ -63,13 +63,13 @@
 
     <!-- User -->
     <div class="absolute bottom-0 flex flex-col w-64">
-      <div class="border-b border-gray-600"></div>
+      <div class="border-b border-gray-600 opacity-25"></div>
       <div class="flex justify-between items-center px-4 py-4">
         <div class="flex items-center">
           <img src="/carlos.jpg" width="33" class="rounded-full" alt="" />
           <div class="ml-3">
-            <p class="text-gray-300 font-medium text-sm">Carlos Montecinos</p>
-            <p class="text-gray-400 font-medium text-xs">Ver perfil</p>
+            <p class="text-gray-500 font-medium text-sm">Carlos Montecinos</p>
+            <p class="text-gray-500 font-medium text-xs">Ver perfil</p>
           </div>
         </div>
         <div>
